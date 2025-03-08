@@ -11,5 +11,8 @@ async def main() -> None:
     await studio_instance.request_authentication()
     print("Studio Authenticated")
 
+    while True:
+        await asyncio.sleep(60)
+
 if __name__ == '__main__':
     asyncio.run(main())
