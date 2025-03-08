@@ -1,2 +1,13 @@
-# Auto detect text files and perform LF normalization
+# Normalize line endings for text files
 * text=auto
+
+# Treat shell scripts as executable
+*.sh text eol=lf
+
+# Ignore binary diffs
+*.jpg binary
+*.png binary
+*.gif binary
+*.mp4 binary
+*.zip binary
+*.exe binary
