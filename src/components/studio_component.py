@@ -47,7 +47,7 @@ class StudioComponent:
         self.__authentication_status: int = 0
         self.api_name: str = studio_api_info["name"]
         self.api_version: str = studio_api_info["version"]
-        self.plugin_name: str = studio_plugin_info["name"]
+        self.plugin_name: str = studio_plugin_info["plugin_name"]
         self.plugin_icon: str = studio_plugin_info["plugin_icon"]
         self.plugin_developer: str = studio_plugin_info["developer"]
         self.token_path: str = studio_plugin_info["authentication_token_path"]
