@@ -1,8 +1,6 @@
 import json
 import websockets
 import aiofiles
-import base64
-import cv2
 import os
 from typing import Dict, List, Optional, Any
 
