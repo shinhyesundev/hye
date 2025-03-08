@@ -178,4 +178,3 @@ class StudioComponent:
 
         return  self._base_request("AuthenticationRequest", data)
 
-    
