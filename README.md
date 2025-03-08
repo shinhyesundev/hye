@@ -70,7 +70,7 @@ To maintain a clean and readable commit history, Hye follows a structured commit
 git clone https://github.com/shinhyesundev/hye.git
 cd hye
 
-pip install -r requirements.txt4
+pip install -r requirements.txt
 ```
 
 # Star History
