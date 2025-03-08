@@ -1,8 +1,10 @@
 import asyncio
 from components.studio_component import StudioComponent
+from components.memory_component import MemoryComponent
 
 async def main() -> None:
     studio_instance = StudioComponent()
+    memory_instance = MemoryComponent(mongoose_uri="mongodb+srv://swansonbuisness:root@cluster0.aaimd.mongodb.net/")
 
     await studio_instance.connect()
     print("Studio Connected")
